@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="4dp"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context="com.example.andriod.translator.MainActivity">
+
+    <TextView
+        android:id="@+id/numbers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FD8E09"
+        android:padding="16dp"
+        android:text="Numbers"
+        android:textColor="#ffffff"
+         />
+
+    <TextView
+        android:id="@+id/family"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#379237"
+        android:padding="16dp"
+        android:text="Family Members"
+        android:textColor="#ffffff"
+
+        />
+
+    <TextView
+        android:id="@+id/colors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8800A0"
+        android:padding="16dp"
+        android:text="Colors"
+        android:textColor="#ffffff"
+
+         />
+
+    <TextView
+        android:id="@+id/phrases"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#16AFCA"
+        android:textColor="#ffffff"
+
+        android:padding="16dp"
+        android:text="Phrases"
+         />
+
+</LinearLayout>
+    <!--   android:onClick="openPhrases"
+         We can achieve this similar Operation by setting"'  SetOnClickListener(View.OnClickListener) Event listeners to each of this.
+
+           -->
+    <!-- android:onClick="openColors"  -->
+    <!--    android:onClick="openFamilyMembers"  -->
+    <!-- android:onClick="openNumbersList"  -->
